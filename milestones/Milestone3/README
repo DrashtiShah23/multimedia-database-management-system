@@ -1,0 +1,144 @@
+ Name      : Drashti Shah
+ Student ID: 920050609.
+ 
+ The link to join  Discord Server.
+ https://discord.gg/NH4Sz9pc57
+ 
+The invite link to  app hosted in replit.com
+https://replit.com/join/drsnaswkqm-drashtishah6
+
+
+Bot Commands: Same as #commandschannel
+
+1. $atleastXSongsArtist <count>
+Return the number of music artists that have published at least x
+songs in their career.
+PS: Follow range of 1 - 11 for count
+e.g: $atleastXSongsArtist 6
+
+2. $moreRatingAlbum <year>
+For each album, find the top music track that got more ratings for the specific year.
+PS: For the year choose from : 2017, 2019, 2010, 2005, 1999, 1993, 2004, 1994, 1997, 1995, 1980, 2003, 1996, 2008, 1975, 2018, 2007, 2009
+e.g: $moreRatingAlbum 2017
+
+3. $mailingNotMessagingUsers
+Find the number of users who have subscribed to the mailing list and have not yet
+subscribed to the messaging list.
+e.g: $mailingNotMessagingUsers
+
+4. $advertisementLastXYears <year>
+For each organization, find the number of advertisements from last x years.
+PS: For the last years choose from 1- 5 : rest will work but will generate the same result as last 5 years as db has data only from last 5 years
+e.g: $advertisementLastXYears 2
+
+5. $organization_no_support <specified order>
+Display each advertisement name who don’t have an organization
+supporting them and order them by a specific order
+eg: $organization_no_support DESC
+
+6. $bannedPodcastInRegion <region_id>
+For a specific region, print the country code and find the podcasts not allowed in that
+specific region
+PS : Region id range 1 - 3 where 1 is for US, 2 is for Canada, 3 is for India
+eg: $bannedPodcastInRegion 1
+
+7. $songsInAlbum <specific_order>
+Find all the albums that have at least 5 songs and return the albums in a specific order.
+eg: $songsInAlbum ASC
+
+8. $lowestRatedTracks <year>
+Print the music track released year, title and rating of the lowest rated movie for each
+years in the period x-present in ascending year order. If there is more than
+1 movie which is lowest rated then print it in ascending order as the title
+eg: $lowestRatedTracks 2005
+ 
+9. $podcastMaxRatingMaxAverage
+Find the podcast that has both the highest number of ratings and the highest average
+ratings
+eg: $podcastMaxRatingMaxAverage
+
+10. $differenceInAvg
+Find the difference between the average rating of music_tracks released before 1985 and
+the average rating of movies released after 1985
+eg: $differenceInAvg
+
+11. $podcastsMoreThanXRating <rating>
+For each podcast that has more than x ratings, find the highest number of ratings that
+podcast received.
+PS: rating in db is from range 1- 5
+e.g: $podcastsMoreThanXRating 2
+
+12. $longestpodcast <year>
+Find the longest podcast duration and return the podcast title and duration in a specific
+year.
+eg: $longestpodcast 2021
+
+13. $second_highest_payment <year>
+Find the 2nd highest amount paid by an advertisement organization to our database for a
+specific year which is greater than the average amount paid by all the organizations.
+eg: $second_highest_payment 2017
+
+14. $insert_device <user_id>
+Create a trigger that inserts the user device id into the device table automatically when
+they register their account
+eg: $insert_device 1
+
+15. $addAudioToFamousChoice <audiobook_id>
+Create a trigger when an audio_book is rated more than 4 stars, add it to
+audio_books_famous_choice table
+eg: $addAudioToFamousChoice 2
+16. $track_more_than_5 <specified order>
+Create a function that returns the length and name of the music tracks which are greater
+than 5 minutes in descending order in a specific year.
+e.g: $track_more_than_5 ASC
+
+17. $refund <user_id>
+Create a procedure to initiate a refund for the premium account only and only if it is
+cancelled within 10 days of subscription
+e.g: $refund 1
+
+18. $audiobook_rating <rating>
+For each genre find the audio_book that has the duration less than 25 minutes and ratings
+greater than x. 
+e.g: $audiobook_rating 3
+
+
+
+ Business requirements. Same as #business-requirementschannel
+ 
+ 1. Return the number of music artists that have published at least x
+songs in their career.
+2. For each album, find the top music track that got more ratings for the specific year
+3. Find the number of users who have subscribed to the mailing list and have not yet
+subscribed to the messaging list.
+4. Create a trigger that inserts the user device id into the device table automatically when
+they register their account
+5. For each organization, find the number of advertisements from last x years.
+6. Create a trigger when an audio_book is rated more than 4 stars, add it to
+audio_books_famous_choice table.
+7. Find the longest podcast duration and return the podcast title and duration in a specific
+year.
+8. Display each advertisement name who don’t have an organization
+supporting them and order them by a specific order
+9. Find the 2nd highest amount paid by an advertisement organization to our database for a
+specific year which is less than the average amount paid by all the organizations.
+10. For a specific region, print the country code and find the podcasts not allowed in that
+specific region.
+11. Find all the albums that have at least 5 songs and return the albums in a specific order.
+12. Print the music track released year, title and rating of the lowest rated movie for 
+years in the period x-present in ascending year order. If there is more than
+1 movie which is lowest rated then print it in ascending order as the title.
+13. Create a function that returns the length and name of the music tracks which are greater
+than 5 minutes in descending order in a specific year.
+14. Find the podcast that has both the highest number of ratings and the highest average
+ratings.
+15. Create a procedure to initiate a refund for the premium account only and only if it is
+cancelled within 10 days of subscription
+16. Find the difference between the average rating of music_tracks released before 1985 and
+the average rating of movies released after 1985.
+17. For each podcast that has more than x ratings, find the highest number of ratings that
+podcast received.
+18. For each genre find the audio_book that has the duration less than 25 minutes and ratings
+greater than 4.
+ 
+ 
