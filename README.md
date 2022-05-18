@@ -10,7 +10,7 @@ Welcome to Database Systems!. Please modify this README file with the following 
 | ------------------------ | -------------------------- |
 | Milestone #1             |        Completed           |
 | Milestone #2             |        Completed       |
-| Milestone #3             |        not completed       |
+| Milestone #3             |        Completed       |
 
 
 
